@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas_profiling
 
-def load_and_process(path_to_csv):
+def load_and_process():
 
     # Method Chain 1 (Load data and deal with missing data)
 
     df1 = (
-          pd.read_csv("/Users/Brenden/Documents/School/Winter 2020-2021/Term 1/DATA 301/Labs/Project/course-project-group-121/data/raw/netflix_titles.csv")
+          pd.read_csv("../../data/raw/netflix_titles.csv")
           .rename(columns={"listed_in": "categories"})
           .dropna()
           # etc...
