@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas_profiling
 
-def load_and_process():
+def load_and_process(path_to_csv):
 
     # Method Chain 1 (Load data and deal with missing data)
 
