@@ -9,7 +9,7 @@ def load_and_process(path_to_csv):
     # Method Chain 1 (Load data and deal with missing data)
 
     df1 = (
-          pd.read_csv("../../data/raw/netflix_titles.csv")
+          pd.read_csv(path_to_csv)
           .rename(columns={"listed_in": "categories"})
           .dropna()
           # etc...
