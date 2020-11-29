@@ -19,7 +19,7 @@ def load_and_process(path_to_csv):
 
     df2 = (
           df1
-          .drop(['description'], axis=1)
+          .drop(['description', 'rating', 'duration'], axis=1)
       )
 
     # Make sure to return the latest dataframe
