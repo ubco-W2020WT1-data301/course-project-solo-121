@@ -3,6 +3,9 @@
 
 https://dub01.online.tableau.com/#/site/data301dashboards/workbooks/524047?:origin=card_share_link
 
+https://youtu.be/LKSpqVdSpas
+
+
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
